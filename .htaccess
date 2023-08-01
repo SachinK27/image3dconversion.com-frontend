@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]
+
+RewriteCond %{HTTP_HOST} ^image3dconversion.com [NC]
+
+RewriteRule ^(.*)$ https://www.image3dconversion.com/$1 [L,R=301,NC]
+
+</IfModule>
+

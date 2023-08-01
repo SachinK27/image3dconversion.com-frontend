@@ -1,0 +1,5 @@
+[25-Nov-2020 06:14:44 UTC] PHP Parse error:  syntax error, unexpected 'USE' (T_USE), expecting ',' or ';' in /home/ddwz3ge6qc1q/public_html/testmail/index.php on line 7
+[25-Nov-2020 06:14:46 UTC] PHP Parse error:  syntax error, unexpected 'USE' (T_USE), expecting ',' or ';' in /home/ddwz3ge6qc1q/public_html/testmail/index.php on line 7
+[25-Nov-2020 06:14:48 UTC] PHP Parse error:  syntax error, unexpected 'USE' (T_USE), expecting ',' or ';' in /home/ddwz3ge6qc1q/public_html/testmail/index.php on line 7
+[25-Nov-2020 06:16:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ddwz3ge6qc1q/public_html/testmail/index.php on line 27
+[25-Nov-2020 06:16:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ddwz3ge6qc1q/public_html/testmail/index.php on line 27

@@ -1,0 +1,693 @@
+@media screen and (min-width: 1200px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .themeBtn {
+    font-size: 20px;
+  }
+  header {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .section01 {
+    padding-bottom: 0;
+  }
+  .section01 h1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .section01 h1 span.span01 {
+    font-size: 72px;
+    line-height: 72px;
+  }
+
+  .section01 .deskImg {
+        position: absolute;
+    bottom: 0;
+    width: 30%;
+  }
+
+  .section02 h3 {
+    font-size: 20px;
+  }
+  .section02 h3 span {
+    font-size: 30px;
+  }
+  .section02 h3 span img {
+    width: 80px;
+    right: -70px;
+    top: -40px;
+  }
+  .section02 ul li {
+    font-size: 18px;
+  }
+  .section02 ul {
+    margin-bottom: 30px;
+  }
+  .section02 ul li::before {
+    background: url(../images/liIcon.png) no-repeat top left / 18px;
+  }
+  .section03 {
+    padding: 30px 0;
+  }
+  .section03 img.deskImg02 {
+    position: inherit;
+    top: 0;
+  }
+  .section03 .blueBlock {
+    margin-left: 0;
+    width: 100%;
+  }
+  .section03 .blueBlock h3 {
+    font-size: 22px;
+  }
+  .section03 .blueBlock ul li {
+    font-size: 18px;
+  }
+  .section04 {
+    padding: 30px 0;
+  }
+  .section04 h3 {
+    font-size: 40px;
+  }
+  .section04 ul li {
+    font-size: 20px;
+  }
+  .section04 ul li br {
+    display: none;
+  }
+  .section05 img.imgUp01 {
+    margin: 0 0 30px;
+  }
+  .section05 img.imgUp02 {
+    margin: 0;
+  }
+  .section06 h3 {
+    font-size: 36px;
+  }
+  .section06 p {
+    font-size: 22px;
+  }
+
+  /* .section07 {
+    padding: 60px 0;
+    background-position: right center;
+    background-size: cover;
+  } */
+  /* .section08 {
+    padding: 60px 0;
+  } */
+  .section08 p {
+    font-size: 24px;
+  }
+  .section08 h3 {
+    font-size: 44px;
+  }
+  .section09 {
+    padding: 30px 0;
+  }
+  .section09 ul {
+    padding: 10px;
+  }
+  .section09 ul li {
+    font-size: 20px;
+    padding-left: 25px;
+  }
+  .section09 ul li::before {
+    left: -13px;
+    background: url(../images/liIcon.png) no-repeat center top 0/ 18px;
+  }
+  .section10 {
+    padding: 0 0 20px 0;
+  }
+  .section10 p.para01 {
+    font-size: 18px;
+  }
+  .section10 p.para01 span {
+    font-size: 20px;
+  }
+  .section10 .arrowD {
+    width: 60px;
+  }
+  .section10 p.para02 {
+    font-size: 20px;
+  }
+
+  .section10 p.para03 img {
+    left: -80px;
+  }
+  .section10 p.para03 {
+    font-size: 18px;
+  }
+  .section10 p.para03 span {
+    font-size: 22px;
+  }
+  .section10 p.para04 {
+    font-size: 20px;
+  }
+  .section10 p.para05 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .section10 p.para05 br {
+    display: none;
+  }
+  .section11 p {
+    font-size: 22px;
+  }
+  .section12 {
+    padding: 30px 0;
+  }
+  .section12 p {
+    font-size: 18px;
+  }
+  .section12 img {
+    max-width: 100%;
+  }
+  .section13 p {
+    font-size: 20px;
+  }
+  .section13 p br {
+    display: none;
+  }
+  .section13 ul {
+    padding-left: 30px;
+    margin-bottom: 30px;
+  }
+  .section13 ul li {
+    font-size: 20px;
+  }
+  .section13 ul li br {
+    display: none;
+  }
+
+  .section13 ul li span {
+    font-size: 30px;
+  }
+  .section13 p img {
+    display: none;
+  }
+  .section14 {
+    background: #0072bc;
+    padding: 20px 0;
+  }
+  .section14 p {
+    font-size: 20px;
+  }
+
+  .section15 p {
+    font-size: 24px;
+  }
+  .section16 .blockDiv p {
+    font-size: 20px;
+  }
+  .section16 .blockDiv img {
+    width: 100%;
+  }
+  .section16 .textContent img {
+    width: 90px;
+  }
+  .section16 .textContent h4 {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  .section16 .textContent h5 {
+    font-size: 26px;
+    margin: 20px 0;
+  }
+  .section16 .textContent p {
+    font-size: 24px;
+    margin: 10px;
+  }
+  .section17 {
+    padding: 30px 0 0;
+  }
+  .section17 p {
+    font-size: 24px;
+  }
+  .section17 img.lightImg,
+  .section17 img.dotedImg {
+    width: 100%;
+  }
+  .section17 .text_design p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .section17 .imgDown {
+    top: 0;
+  }
+
+  .section18 h4 {
+    font-size: 24px;
+  }
+  .section18 ul li {
+    font-size: 18px;
+  }
+
+  .manImg {
+    background-size: contain;
+    padding: 60px 0;
+  }
+  .section19 p {
+    font-size: 20px;
+    position: inherit;
+  }
+  .section19 p span {
+    font-size: 24px;
+  }
+  .section20 {
+    background: url(../images/whatIfImg.png) no-repeat top center;
+    background-size: contain;
+    height: auto;
+    padding: 30px 0;
+  }
+  .section20 h6 {
+    font-size: 18px;
+    top: 80px;
+    margin-bottom: 190px;
+    left: 15px;
+  }
+  .section20 p {
+    font-size: 20px;
+  }
+  .section20 p.paraText {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  .section21 h5 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .section21 ul li {
+    font-size: 20px;
+  }
+  .section21 ul li::before {
+    left: -45px;
+  }
+  .section21 .map {
+    padding: 30px 0;
+  }
+  .section21 .map p {
+    font-size: 22px;
+  }
+  .section21 .dental {
+    padding: 10px 0;
+    background: url(../images/leftDot.png) no-repeat left center / 60px,
+      url(../images/rightDot.png) no-repeat right center / 60px;
+  }
+  .section21 .dental p {
+    font-size: 30px;
+  }
+  .section21 .dental p span {
+    font-size: 40px;
+  }
+  footer ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  footer ul li + li {
+    margin-top: 20px;
+  }
+  footer ul li img.mBlock {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section02 img.deskImg001{
+    position: relative;
+    top: 0px;
+    margin-bottom: 111px;
+  } 
+   .section02 img.deskImg002{
+    position: relative;
+    top: 90px;
+    margin-bottom: 133px;
+  }
+  .section01 .deskImg1{
+        position: absolute;
+    right: 0;
+    top: 103px;
+    width: 100%;
+    opacity: 0.5;
+  }
+  button.btn.next-btn{
+    font-size: 12px;
+  }
+  button.btn.back-btn{
+    font-size: 12px;
+  }
+  .hidden-xs{
+    display: none;
+  }
+  .themeBtn {
+    font-size: 20px;
+  }
+  header {
+    padding: 10px 0 15px 0;
+    text-align: center;
+  }
+  .section01 {
+    padding: 20px 0;
+  }
+  .section01 h1 {
+    font-size: 30px;
+    line-height: 60px;
+  }
+  .section01 h1 span.span01 {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .section01 h1 span{
+    margin-top: 0px;
+    font-size: 38px;
+  }
+  .section01 h1 span.span02{
+    font-size: 48px;
+    line-height: 40px;
+  }
+
+  .section01 h1 div.div01{
+     top: -11px;
+     z-index: 999;
+  }
+
+  .section01 .deskImg {
+    position: relative;
+    top: 0;
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
+
+  .section02 h3 {
+    font-size: 20px;
+  }
+  .section02 h3 span {
+    font-size: 30px;
+  }
+  .section02 h3 span img {
+    width: 80px;
+    right: -70px;
+    top: -40px;
+    display: block;
+  }
+  .section02 ul li {
+    font-size: 18px;
+  }
+  .section02 ul {
+    margin-bottom: 30px;
+  }
+  .section02 ul li::before {
+    background: url(../images/liIcon.png) no-repeat top left / 18px;
+  }
+  .section03 {
+    padding: 30px 0;
+  }
+  .section03 img.deskImg02 {
+    position: inherit;
+    top: -90px;
+    width: 100%;
+  }
+  .section03 .blueBlock {
+    margin-left: 0;
+    width: 100%;
+  }
+  .section03 .blueBlock h3 {
+    font-size: 22px;
+  }
+  .section03 .blueBlock ul li {
+    font-size: 18px;
+  }
+  .section04 {
+    padding: 30px 0;
+  }
+  .section04 h3 {
+    font-size: 40px;
+  }
+  .section04 ul li {
+    font-size: 20px;
+  }
+  .section04 ul li br {
+    display: none;
+  }
+  .section05 img.imgUp01 {
+    margin: 0 0 30px;
+  }
+  .section05 img.imgUp02 {
+    margin: 0;
+  }
+  .section06 h3 {
+    font-size: 36px;
+  }
+  .section06 p {
+    font-size: 22px;
+  }
+  .section06 h3 img {
+    display: none;
+  }
+  /* .section07 {
+    height: auto;
+    padding: 60px 0;
+    background-position: right center;
+    background-size: cover;
+  } */
+
+  .section07 p {
+    font-size: 18px;
+  }
+  .section07 h3 {
+    font-size: 36px;
+  }
+  /* .section08 {
+    padding: 60px 0;
+    background-size: cover;
+    background-position: -450px 0;
+  } */
+
+  .section08 p {
+    font-size: 16px;
+  }
+  .section08 h3 {
+    font-size: 30px;
+  }
+  .section09 {
+    padding: 30px 0;
+  }
+  .section09 ul {
+    padding: 10px;
+  }
+  .section09 ul li {
+    font-size: 20px;
+    padding-left: 25px;
+  }
+  .section09 ul li::before {
+    left: -13px;
+    background: url(../images/liIcon.png) no-repeat center top 0/ 18px;
+  }
+  .section10 {
+    padding: 0 0 20px 0;
+    background: url(../images/section10Bg.png) no-repeat center center,
+      url(../images/designImg3.png) no-repeat top 50px right 0;
+    background-size: cover, 20%;
+  }
+  .section10 p.para01 {
+    font-size: 18px;
+  }
+  .section10 p.para01 span {
+    font-size: 20px;
+  }
+  .section10 .arrowD {
+    width: 60px;
+  }
+  .section10 p.para02 {
+    font-size: 20px;
+  }
+
+  .section10 p.para03 img {
+    left: -80px;
+  }
+  .section10 p.para03 {
+    font-size: 18px;
+  }
+  .section10 p.para03 span {
+    font-size: 22px;
+  }
+  .section10 p.para04 {
+        font-size: 18px;
+    background: url(../images/lineImg.png) no-repeat center center, url(../images/rocket.png) no-repeat right 7px bottom -5px;
+  }
+  .section10 p.para05 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .section10 p.para05 br {
+    display: none;
+  }
+  .section11 p {
+    font-size: 22px;
+  }
+  .section12 {
+    padding: 30px 0;
+  }
+  .section12 p {
+    font-size: 18px;
+  }
+  .section12 img {
+    max-width: 100%;
+  }
+  .section13 p {
+    font-size: 20px;
+  }
+  .section13 p br {
+    display: none;
+  }
+  .section13 ul {
+    padding-left: 30px;
+    margin-bottom: 30px;
+  }
+  .section13 ul li {
+    font-size: 20px;
+  }
+  .section13 ul li br {
+    display: none;
+  }
+
+  .section13 ul li span {
+    font-size: 30px;
+  }
+  .section13 p img {
+    display: none;
+  }
+  .section14 {
+    background: #0072bc;
+    padding: 20px 0;
+  }
+  .section14 p {
+    font-size: 20px;
+  }
+
+  .section15 p {
+    font-size: 24px;
+  }
+  .section16 .blockDiv p {
+    font-size: 20px;
+  }
+  .section16 .blockDiv img {
+    width: 100%;
+  }
+  .section16 .textContent img {
+    width: 90px;
+  }
+  .section16 .textContent h4 {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  .section16 .textContent h5 {
+    font-size: 26px;
+    margin: 20px 0;
+  }
+  .section16 .textContent p {
+    font-size: 24px;
+    margin: 10px;
+  }
+  .section17 {
+    padding: 30px 0 0;
+  }
+  .section17 p {
+    font-size: 24px;
+  }
+  .section17 img.lightImg,
+  .section17 img.dotedImg {
+    width: 100%;
+  }
+  .section17 .text_design p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .section17 .imgDown {
+    top: 0;
+  }
+
+  .section18 h4 {
+    font-size: 24px;
+  }
+  .section18 ul li {
+    font-size: 18px;
+  }
+
+  .manImg {
+    background-size: contain;
+    padding: 60px 0;
+  }
+  .section19 p {
+    font-size: 20px;
+    position: inherit;
+    margin-top: 60px;
+  }
+  .section19 p span {
+    font-size: 24px;
+  }
+  .section20 {
+    background: url(../images/whatIfImg.png) no-repeat top center;
+    background-size: contain;
+    height: auto;
+    padding: 30px 0;
+  }
+  .section20 h6 {
+    left: 13px;
+    font-size: 18px;
+    top: 70px
+  }
+  .section20 p {
+    font-size: 16px;
+    margin-top: 160px;
+    
+  }
+  .section20 p.paraText {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  .section21 h5 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .section21 ul li {
+    font-size: 20px;
+  }
+  .section21 ul li::before {
+    left: -45px;
+  }
+  .section21 .map {
+    padding: 30px 0;
+  }
+  .section21 .map p {
+    font-size: 22px;
+  }
+  .section21 .dental {
+    padding: 10px 0;
+    background: url(../images/leftDot.png) no-repeat left center / 60px,
+      url(../images/rightDot.png) no-repeat right center / 60px;
+  }
+  .section21 .dental p {
+    font-size: 30px;
+  }
+  .section21 .dental p span {
+    font-size: 40px;
+  }
+  footer ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  footer ul li + li {
+    margin-top: 20px;
+  }
+  footer ul li img.mBlock {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+}

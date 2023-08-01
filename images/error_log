@@ -1,0 +1,11 @@
+[28-Sep-2020 21:27:21 UTC] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home/ddwz3ge6qc1q/public_html/images/get_information-landing.php on line 3
+[28-Sep-2020 21:27:21 UTC] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/ddwz3ge6qc1q/public_html/images/get_information-landing.php on line 3
+[28-Sep-2020 21:27:21 UTC] PHP Notice:  Undefined index: name in /home/ddwz3ge6qc1q/public_html/images/get_information-landing.php on line 5
+[28-Sep-2020 21:27:21 UTC] PHP Notice:  Undefined index: email in /home/ddwz3ge6qc1q/public_html/images/get_information-landing.php on line 6
+[28-Sep-2020 21:27:21 UTC] PHP Notice:  Undefined index: mobile in /home/ddwz3ge6qc1q/public_html/images/get_information-landing.php on line 7
+[28-Sep-2020 21:27:21 UTC] PHP Notice:  Undefined index: country in /home/ddwz3ge6qc1q/public_html/images/get_information-landing.php on line 8
+[28-Sep-2020 21:27:21 UTC] PHP Notice:  Undefined index: query in /home/ddwz3ge6qc1q/public_html/images/get_information-landing.php on line 10
+[28-Sep-2020 21:27:21 UTC] PHP Notice:  Undefined variable: con in /home/ddwz3ge6qc1q/public_html/images/get_information-landing.php on line 16
+[28-Sep-2020 21:27:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ddwz3ge6qc1q/public_html/images/get_information-landing.php on line 16
+[28-Sep-2020 21:27:21 UTC] PHP Notice:  Undefined variable: conn in /home/ddwz3ge6qc1q/public_html/images/get_information-landing.php on line 158
+[28-Sep-2020 21:27:21 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ddwz3ge6qc1q/public_html/images/get_information-landing.php on line 158

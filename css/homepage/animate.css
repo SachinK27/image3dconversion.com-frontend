@@ -1,0 +1,30 @@
+@charset "UTF-8"; /*!
+ * animate.css -http://daneden.me/animate
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2016 Daniel Eden
+ */
+.animation-delay1 {
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.animation-delay2 {
+    -webkit-animation-delay: .6s;
+    -moz-animation-delay: .6s;
+    animation-delay: .6s;
+}
+
+.animation-delay3 {
+    -webkit-animation-delay: .9s;
+    -moz-animation-delay: .9s;
+    animation-delay: .9s;
+}
+
+.animation-delay4 {
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+

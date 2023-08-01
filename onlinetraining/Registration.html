@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2417169191743093');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2417169191743093&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <title>Register for the Training</title>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+      <link rel="stylesheet" href="css/reg.css" type="text/css" />
+      <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+   </head>
+   <body>
+      <header class="reg-header">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12 text-center">
+                  <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section class="section-reg">
+         <div class="container">
+            <div class="checkout-panel">
+               <form id="regForm" class="reg_form" method="post" action="submit_registration.php">
+                   <div class="panel-body text-center">
+                  <h3 class="title"><span>Register</span> for the Training Now</h3>
+                  <h4>Live Online Training on Digital Denstistry - <br> Dental Implants and Orthodontics.
+                  </h4>
+                  <img src="images/reg-img.png" class="img-fluid">
+                  <br>
+                  <br>
+                  <div class="row">
+                     <div class="form-group col-sm-6">
+                        <input type="text" class="form-control width100P" name="fullName" placeholder="Your Name" required>
+                        <div class="clearfix"></div>
+                     </div>
+                     <div class="form-group col-sm-6">
+                        <input type="email" class="form-control width100P" name="emailId" placeholder="Email-ID" required>
+                        <div class="clearfix"></div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="form-group col-sm-6">
+                        <input style="width: 20%; float: left;" type="text" class="form-control" name="code" placeholder="+1" required>
+                        <input style="width: 80%; float: left;border-left: 0px;" type="text" class="form-control" name="phoneNo" placeholder="Phone No" required>
+                        <div class="clearfix"></div>
+                     </div>
+                     <div class="form-group col-sm-6">
+                        <input type="text" class="form-control width100P" name="country" placeholder="Country" required>
+                        <div class="clearfix"></div>
+                     </div>
+                     <div class="form-group col-sm-6">
+                        <input type="text" class="form-control width100P" name="state" placeholder="State" required>
+                        <div class="clearfix"></div>
+                     </div>
+                     <div class="form-group col-sm-6">
+                        <input type="text" class="form-control width100P" name="city" placeholder="City" required>
+                        <div class="clearfix"></div>
+                     </div>
+                     <div class="form-group col-sm-6">
+                        <input type="number" class="form-control width100P" name="pincode" placeholder="Pincode" required>
+                        <div class="clearfix"></div>
+                     </div>
+                     <div class="form-group col-sm-6">
+                        <div class="form-group">
+                           <select class="form-control" name="speciality" required>
+                              <option value="">Speciality</option>
+                              <option value="General Practitioners">General Practitioners </option>
+                              <option value="Oral Surgeon">Oral Surgeon</option>
+                              <option value="Periodontist">Periodontist</option>
+                              <option value="Prosthodontist">Prosthodontist</option>
+                              <option value="Endodontist">Endodontist</option>
+                              <option value="Others">Others</option>
+                           </select>
+                        </div>
+                     </div>
+                     <div class="form-group col-sm-12">
+                        <h6 style="text-align: initial; font-weight: 400; margin-bottom: 21px;">Select Module</h6>
+                        <div class="form-group h6" style="text-align:left; font-size:14px;">
+                           <div class="row">
+                              <div class="col-sm-4 pb-20">
+                                 <input type="checkbox" name="check_list[]" value="Bone Supported Guide"><label>Bone Supported Guide</label>
+                              </div>
+                              <div class="col-sm-4 pb-20">
+                                 <input type="checkbox" name="check_list[]" value="Bone Reduction Guide"><label>Bone Reduction Guide</label>
+                              </div>
+                              <div class="col-sm-4 pb-20">
+                                 <input type="checkbox" name="check_list[]" value="Implant Planning"><label>Implant Planning</label>
+                              </div>
+                              <div class="col-sm-4 pb-20">
+                                 <input type="checkbox" name="check_list[]" value="ABCD of Guided Surgery Software"><label>ABCD of Guided Surgery Software</label>
+                              </div>
+                              <div class="col-sm-4 pb-20">
+                                 <input type="checkbox" name="check_list[]" value="Digital Denture"><label>Digital Denture</label>
+                              </div>
+                              <div class="col-sm-4 pb-20">
+                                 <input type="checkbox" name="check_list[]" value="Single Implant Guide"><label>Single Implant Guide</label>
+                              </div>
+                              <div class="col-sm-4 pb-20">
+                                 <input type="checkbox" name="check_list[]" value="Storing cases & sharing Data"><label>Storing cases & sharing Data</label>
+                              </div>
+                              <div class="col-sm-4 pb-20">
+                                 <input type="checkbox" name="check_list[]" value="Ortho Technical"><label>Ortho Technical</label>
+                              </div>
+                              <div class="col-sm-4 pb-20">
+                                 <input type="checkbox" name="check_list[]" value="Clear aligner for Class 3 patients"><label>Clear aligner for Class 3 patients</label>
+                              </div>
+                              <div class="col-sm-4 pb-20">
+                                 <input type="checkbox" name="check_list[]" value="Set up your jobs for 3D printing"><label>Set up your jobs for 3D printing</label>
+                              </div>
+                           </div>
+                           <br>
+                           <div class="row text-center">
+                              <div class="col-sm-12">
+                                 <input type="checkbox" class="checkbox" id="agree" name="agree" required>
+                                 <label for="agree">By submitting this form you agree <br> to our <a style="color:blue; cursor:pointer" data-toggle="modal" data-target="#myTerms">Terms &amp; Condition.</a></label>
+                                 <!-- <p>By submitting this form you agree to our Terms & Condition.</p> -->
+                              </div>
+                              <div class="col-md-12" style="margin-top: 30px; text-align: -webkit-center;">
+                                  <div class="g-recaptcha" data-theme="light" data-sitekey="6LcYvqMaAAAAAHZu1SyiZNtwTPXXUgQSw6Ykrns9"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel-footer">
+                  <button class="btn back-btn" type="reset">Reset</button>
+                  <button type="submit" class="btn next-btn">Register Now</button>
+               </div>
+               </form>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12">
+                  <ul>
+                     <li>
+                        <img src="images/email.png" alt="img">
+                        <a href="mailto:training@image3dconversion.com">training@image3dconversion.com</a>
+                     </li>
+                     <li>
+                        <!-- <img class="mBlock" src="images/call.png" alt="img"> -->
+                        <img src="images/usa.png" alt="img">
+                        <a href="tel:+1 888-276-9811">USA & Canada: (+1)888-276-9811</a>
+                     </li>
+                     <li>
+                        <img src="images/uk.png" alt="img">
+                        <a href="tel:+44 800-090-3841">UK: (+44)800-090-3841</a>
+                     </li>
+                     <li>
+                        <img src="images/india.png" alt="img">
+                        <a href="tel:+91 8876395581">(+91)8876395581</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Modal -->
+      <div class="modal fade" id="myTerms" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Terms &amp; Conditions</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <ol>
+                <li>Training shall be provided on the data/sample provided by Image3dconversion.</li><hr>
+                <li>If the trainee needs the training on any of his/her own data/sample , extra charges will incur.</li><hr>
+                <li>If the session time of training exceeds by 15 minutes, extra charges shall incur.</li><hr>
+                <li>15 minutes buffer time shall be provided for each session. This duration will not incur any extra charges.</li><hr>
+                <li>All courses must be scheduled 15 days in advance. </li><hr>
+                <li>If there is a change in the date or time of the online session, the trainee has to inform at least 24 hours prior. </li><hr>
+                <li>The course fee for the session(s) needs to be deposited in advance.</li><hr>
+                <li>The course fee is not reimbursable if the online session(s) gets cancelled by the trainee.</li><hr>
+                <li>If the trainee must not allow anyone else to access the online training courses via their log-in details. The trainee must comply with all safety rules and regulations.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/popper.min.js"></script>
+      <script type="text/javascript" src="js/custom.js"></script>
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+       <script type="text/javascript">
+       $("#regForm").validate();
+      </script> -->
+   </body>
+</html>
